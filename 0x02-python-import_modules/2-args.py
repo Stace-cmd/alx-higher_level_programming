@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-#  Prints the number of and the list of its arguments
+# Prints the number of and the list of its arguments
+
 if __name__ == "__main__":
     import sys
 
@@ -7,7 +8,7 @@ if __name__ == "__main__":
     size = len(arg) - 1
 
     if size > 1:
-print("{} arguments:".format(size))
+        print("{} arguments:".format(size))
         for i in range(1, size + 1):
             print("{}: {}".format(i, arg[i]))
 
