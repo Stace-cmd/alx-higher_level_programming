@@ -1,0 +1,3 @@
+#!/bin/bash
+pyfile="$PYFILE"
+pyfilec="${pyfile%.py}.pyc"
